@@ -1,0 +1,22 @@
+function add(x, y) {
+  return x + y;
+}
+
+function calc(a, b) {
+  return a + b * 2;
+}
+
+let res1 = calc(10, 5);
+print(res1);
+
+let res2 = (2 + 3) * 4;
+print(res2);
+
+let res3 = 20 - 10 - 5;
+print(res3);
+
+let sum = 0;
+for (let i = 1; i <= 5; i++) {
+  sum = add(sum, i);
+}
+print(sum);
